@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, VisionEncoderDecoderModel, ViTFeatureExt
 # Directory path to the saved model on Google Drive
 model_directory = 'model/'
 
-model = VisionEncoderDecoderModel.from_pretrained(model_directory)
+model = VisionEncoderDecoderModel.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
 
 # create the Streamlit app
 def app():
