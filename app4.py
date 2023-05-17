@@ -4,7 +4,7 @@ import numpy as np
 from transformers import AutoTokenizer, VisionEncoderDecoderModel, ViTFeatureExtractor
 
 # Directory path to the saved model on Google Drive
-model_directory = ''
+model_directory = 'kusumakargit/openin/"
 
 model = VisionEncoderDecoderModel.from_pretrained("model_directory")
 
